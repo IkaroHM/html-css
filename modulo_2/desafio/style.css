@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+p {
+    text-align: justify;
+}
+article > h1{
+    font-size: 25px;
+    font-family: 'android';
+    color: #0d9148;
+    padding-left: 5px;
+}
+
+article > h2{
+    font-size: 20px;
+    font-family: 'android';
+    color: #0d9148;
+    padding-left: 5px;
+    background: linear-gradient(to right, #a3e9c2, white);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E1AD;
+}
+
+header {
+    background: linear-gradient(to bottom, #43d484, #0d773b, #074b24);
+    height: 150px;
+    color: white;
+    border-radius: 4px;
+}
+header > h1, p{
+    text-align: center;
+    padding: 5px;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+}
+
+nav > a {  
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+nav > a:hover {
+    background-color: #83E1AD;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 830px;
+    border-radius: 6px;
+}
+
+span {
+    color: #076e34;
+    font-weight: bold;
+}
+
+iframe {
+    width: 700px;
+    height: 300px;
+}
+
+div#video {
+    background-color: #074b24;
+    text-align: center;
+}
+
+div#bugdroid {
+    text-align: center;
+}
+
+div#irina {
+    width: 810px;
+    margin-right: 10px;
+    margin-left: 13px;
+}
+
+aside > h2 {
+    background-color: #099b48;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+aside {
+    background-color: white;
+}
+
+#asidee {
+    background-color: #72f7ae;
+}
+
+#link {
+    color: #076e34;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#link:hover {
+    background-color: #beebd2;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #302f2f;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+
+footer > p {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagems dinamicas</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplismente diminua e aumento o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagems_de_aulas/imagem_pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagems_de_aulas/imagem_media.png" type="image/png">
+        <img src="imagems_de_aulas/imagem_grande.png" alt="imagem grande">
+    </picture>
+    <h1>audios</h1>
+    <p>vamos usar audios com html5</p>
+    <audio src="arquivos para usaer nas aulas/risada.mp3" controls autoplay></audio>
+    <p>outra maneira de adicionar audio</p>
+    <audio controls preload="metadata" >
+        <source src="arquivos para usaer nas aulas/risada.mp3" type="audio/mpeg">
+        <p>nao consegue ouvir ? <a href="arquivos para usaer nas aulas/risada.mp3" download="risada.mp3">baixe aqui</a></p>
+    </audio>
+</body>
+</html>

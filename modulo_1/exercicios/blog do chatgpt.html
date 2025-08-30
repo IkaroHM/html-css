@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de blog de html</title>
+    <link rel="shortcut icon" href="imagems de aulas/minha logo html.ico" type="image/x-icon">
+    <style>
+        body {
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #e0e0e0, #a19999);
+            margin: 0;
+            padding-top: 70px; /* espaço pro menu fixo */
+        }
+
+        /* ===== MENU ===== */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: grey;
+            border-radius: 0 0 15px 15px;
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            color: rgb(242, 243, 250);
+            font-weight: bold;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== TÍTULOS ===== */
+        h1 {
+            color: rgb(243, 161, 9);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #e44d26;
+            margin: 20px;
+            border-left: 5px solid #e44d26;
+            padding-left: 10px;
+        }
+
+        /* ===== TEXTO ===== */
+        p, ul {
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 40px;
+        }
+
+        /* ===== BLOCO DE CÓDIGO ===== */
+        pre {
+            background-color: #3a3642;
+            width: 50%;
+            border-radius: 15px;
+            color: green;
+            padding: 15px;
+            margin: 20px;
+            overflow-x: auto;
+        }
+
+        pre p {
+            margin: 0;
+            color: #0f0;
+        }
+
+        /* ===== IMAGENS ===== */
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+
+        img[alt="anuncio"] {
+            width: 50%;
+            height: 150px;
+        }
+
+        /* ===== RODAPÉ ===== */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            border-radius: 15px 15px 0 0;
+        }
+
+        abbr {
+            text-decoration: underline dotted;
+            cursor: help;
+        }
+    </style>
+</head>
+<body>
+    <!-- MENU FIXO -->
+    <nav>
+        <ul>
+            <li>🏠 Home</li>
+            <li>📰 Notícias</li>
+            <li>📚 Tutoriais</li>
+            <li>🔍 Pesquisa</li>
+            <li>📞 Contato</li>
+        </ul>
+    </nav>
+
+    <h1><abbr title="Hypertext Markup Language">HTML</abbr></h1>
+    <img src="imagems de aulas/logo html sem html.png" alt="Logo HTML">
+    
+    <h2>O que é?</h2>
+    <p><abbr title="Hypertext Markup Language">HTML</abbr> é a linguagem padrão para criar páginas da web. Ela funciona como a "estrutura/esqueleto" de um site, definindo onde ficam textos, imagens, links, vídeos e outros elementos.</p>
+    
+    <h2>Composição</h2>
+    <p>Um documento <abbr title="Hypertext Markup Language">HTML</abbr> é composto por tags (etiquetas), que informam ao navegador como cada parte do conteúdo deve ser exibida. Por exemplo:</p>
+    <ul>
+        <li>&lt;h1&gt; cria títulos</li>
+        <li>&lt;p&gt; cria parágrafos</li>
+        <li>&lt;a&gt; cria links</li>
+        <li>&lt;img&gt; cria imagens</li>
+    </ul>
+    
+    <h2>Estrutura base</h2>
+    <pre>
+<p>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+</p>
+    </pre>
+    
+    <h2>Como acontece?</h2>
+    <p>Quando você abre esse arquivo no navegador, ele interpreta o código e mostra o conteúdo de forma organizada.</p>
+    
+    <h2>Resumo</h2>
+    <p>O <abbr title="Hypertext Markup Language">HTML</abbr> é o esqueleto da web, simples, mas essencial! Quer deixar bonito? Aí entra as <abbr title="Cascading Style Sheets">CSS</abbr>. Quer interatividade? Aí entra o JavaScript.</p>
+    
+    <img src="imagems de aulas/anuncio premiere leve.png" alt="anuncio">
+
+    <!-- RODAPÉ -->
+    <footer>
+        Feito por Ikaro © 2025 - Todos os direitos reservados
+    </footer>
+</body>
+</html>
