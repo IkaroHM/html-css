@@ -6,6 +6,54 @@
     <title>Document</title>
 </head>
 <style>
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(185, 247, 91);
+    }
+
+    h1 {
+        background-color: green;
+        border-radius: 4px;
+        padding: 5px;
+        margin: -10px -10px 0px -10px;
+        font-size: 2em;
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    article {
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        padding-bottom: 0px;
+    }
+
+    h1:hover {
+        background-color: grey;
+        transition: 0.5s;
+    }
+
+    p:hover, :focus {
+        background-color: gray;
+        color: white;        transition-duration: 0.5s;
+        font-weight: bolder;
+        borde: 1px solid rgb(15, 231, 15);
+    }
+
+    section:hover {
+        background-color: rgb(18, 169, 230);
+        transition-duration: 10s;
+    }  
+
     button {
         font-family: Arial, Helvetica, sans-serif;
         display: block;
@@ -14,7 +62,6 @@
         font-weight: bold;
         margin: auto;
         height: 150px;
-        margin-top: 25%;
         font-size: 2em;
     }
 
@@ -31,8 +78,18 @@
     }
 </style>
 <body>
-    <button>
-        Botao com imagem de fundo
-    </button>
+    <main>
+        <section>
+            <article>
+                <h1>TItulo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe sequi similique ab tempora corrupti, nisi voluptatem amet tenetur perferendis nostrum et totam magnam recusandae dolores laborum possimus illum odit assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, possimus veritatis iste quo ab, eaque itaque dolorem repellat ut non nam! Obcaecati aliquid incidunt dolore accusamus laborum voluptates ad officia! lorem</p>
+            </article>
+            <aside>
+                <button>
+                    Botao com imagem de fundo
+                </button>
+            </aside>
+        </section>
+    </main>
 </body>
 </html>
