@@ -61,10 +61,10 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #83E1AD;
-    color: #000000;
+    background-color: #33db2d;
     text-decoration: underline;
     font-size: 17px;
+    transition-duration: 0.5s;
 }
 
 main {
