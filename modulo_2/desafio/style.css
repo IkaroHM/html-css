@@ -54,14 +54,14 @@ header > h1 {
 }
 
 nav > a {  
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
     margin-right: 3px;
 }
 
 nav > a:hover {
-    background-color: #33db2d;
+    background-color: #40bd07;
     text-decoration: underline;
     font-size: 17px;
     transition-duration: 0.5s;
