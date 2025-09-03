@@ -8,7 +8,7 @@ header {
     background-color: black;
     text-align: center;
     margin: -10px -10px 0px -10px;
-    max-height: px;
+    height: 220px;
 }
 
 h1 {
@@ -16,8 +16,61 @@ h1 {
     font-weight: bold;
     color: white;
     margin: auto;
+    font-size: 4em;
+    margin-bottom: 50px;
 }
 
-p {
+header > p {
     color: white;
+    font-size: 19px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ main p {
+    font-size: 40px;
+    font-family: 'Sriracha';
+}
+
+.i1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: fixed;
+    background-attachment: fixed;
+}
+
+.txtimg {
+    color: rgb(255, 255, 255);
+    background-color: rgba(20, 18, 18, 0.534);
+}
+
+.i2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: fixed;
+    background-attachment: fixed;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px -10px -20px -20px;
+    padding: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    text-align: center;
 }
